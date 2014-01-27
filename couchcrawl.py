@@ -47,7 +47,7 @@ class Crawl(object):
 
         twitter_stream = tw.TwitterStream(
             auth=self.auth,
-            #api_version="1.1",
+            api_version="1.1",
             domain="userstream.twitter.com")
 
         conn = pymongo.Connection()
